@@ -5,7 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return render(request, 'kakaopai/map.html')
+    return render(request, 'kakaoapi/map.html')
 
 '''headers = {
     "Authorization" : "KakaoAK 1a98ba4401035233ab63c049917b079d"

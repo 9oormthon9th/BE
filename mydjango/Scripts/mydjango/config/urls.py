@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-import kakaopai.urls
+import kakaoapi.urls 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('kakaopai/',include('kakaopai.urls'))
+    path('kakaoapi/',include('kakaoapi.urls'))
 ]
